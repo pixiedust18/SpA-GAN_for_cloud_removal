@@ -11,9 +11,8 @@ from utils import gpu_manage, heatmap
 from models.gen.SPANet import Generator
 
 def show(img):
-    cv2.imshow('image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('image', img)
+    cv2.imwrite('/content/result.png')
 
 def predict(args):
 
