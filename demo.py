@@ -12,7 +12,7 @@ from models.gen.SPANet import Generator
 
 def show(img):
     #cv2.imshow('image', img)
-    cv2.imwrite('/content/result.png')
+    cv2.imwrite(img, '/content/result.png')
 
 def predict(args):
 
